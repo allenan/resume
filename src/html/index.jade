@@ -1,0 +1,65 @@
+doctype html
+html
+  head
+    link(href='styles.css' rel='stylesheet' type='text/css')
+  body
+    article.resume
+      header
+        h1= name
+        ul.contact-methods
+          li.phone= phone
+          li.email= email
+          li.website= website
+      section.summary
+        h2 Summary
+        p= summary
+      section.experience
+        h2 Work Experience
+
+        each role in experience
+
+          .role
+            h3.title= role.title
+            .dates
+              span= role.from
+              span.range &mdash;
+              span= role.to
+            .details
+              span.company= role.company
+              span.location= role.location
+
+            p.summary= role.summary
+
+            ul.highlights
+              each highlight in role.highlights
+                li= highlight
+
+      section.skills
+        h2 Skills
+
+        each skillset in skillsets
+          h3= skillset.heading
+          ul.highlights
+            each skill in skillset.skills
+              li= skill
+      
+      section.education
+        h2 Education
+
+        h3.title= education.degree
+        .dates
+          span= education.from
+          span.range &mdash;
+          span= education.to
+        .details
+          span.school= education.school
+          span.location= education.location
+        
+
+        ul.highlights
+          each highlight in education.highlights
+            li= highlight
+
+      if attribution
+        footer.source
+          small View this resume's source: <a href="http://github.com/allenan/resume">github.com/allenan/resume</a>

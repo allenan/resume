@@ -1,0 +1,21 @@
+@media print {
+  html {
+    font-size: 12pt;
+  }
+
+  @page {
+    margin: 0.75in;
+  }
+
+  .resume {
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+}
