@@ -10,3 +10,4 @@ A JSON-powered resume with clean and modern typography
 - [ ] Page numbers, header/footer content in print
 - [ ] Fix: Watch resume.json and reload data after save
 - [ ] Gulp task to generate pdf
+- [ ] Automatically detect links
