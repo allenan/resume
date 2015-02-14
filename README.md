@@ -1,11 +1,18 @@
 # Resume
 A JSON-powered resume with clean and modern typography
 
+### Getting Started
+1. Install node & npm
+2. Clone this repo and, from within the cloned directory, run `$ npm install`
+3. Copy example-resume.json and rename resume.json
+4. Run `$ gulp`
+5. Navigate to http://localhost:8000 to see your resume
+
 ### Roadmap
 #### 1.0
 - [x] Sample resume.json file
 - [x] package.json with dependencies
-- [ ] Write getting started instructions
+- [x] Write getting started instructions
 - [ ] Improve typography, fonts
 - [ ] Add image to Readme
 - [ ] Fix: Watch resume.json and reload data after save
