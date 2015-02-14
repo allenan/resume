@@ -11,3 +11,5 @@ A JSON-powered resume with clean and modern typography
 - [ ] Fix: Watch resume.json and reload data after save
 - [ ] Gulp task to generate pdf
 - [ ] Automatically detect links
+- [ ] Themes
+- [ ] Responsiveness
