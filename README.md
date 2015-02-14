@@ -6,6 +6,7 @@ A JSON-powered resume with clean and modern typography
 - [ ] package.json with dependencies
 - [ ] Write getting started instructions
 - [ ] Improve typography, fonts
+- [ ] Add image to Readme
 - [ ] More generalized json
 - [ ] Page numbers, header/footer content in print
 - [ ] Fix: Watch resume.json and reload data after save
