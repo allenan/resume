@@ -7,7 +7,7 @@ var sass = require('gulp-sass');
 var paths = {
   html: 'src/html/**/*',
   styles: 'src/stylesheets/**/*',
-  data: 'resume.json'
+  data: 'example-resume.json'
 };
 
 
@@ -20,7 +20,7 @@ gulp.task('server', function() {
 });
 
 gulp.task('templates', function() {
-  var data = require('./resume.json');
+  var data = require('./' + paths.data);
 
   gulp.src('./src/html/*.jade')
     .pipe(jade({

@@ -1,0 +1,85 @@
+{
+  "settings": {
+    "attribution": true
+  },
+
+  "name": "Steve Jobs",
+  "phone": "(408) 996-1010",
+  "email": "steve@mac.com",
+  "website": "apple.com",
+
+  "summary": "I'm looking for a fixer-upper with a solid foundation. Am willing to tear down walls, build bridges, and light fires. I have great experience, lots of energy, a bit of that 'vision thing' and I'm not afraid to start from the beginning.",
+
+  "experience": [
+    {
+      "title": "CEO",
+      "company": "Apple Computer, Inc.",
+      "location": "Cupertino, CA",
+      "from": "1997",
+      "to": "Present",
+      "highlights": [
+        "Helped company to once again create phenomenal products such as iMac, iBook, G4, PowerBook, iTools, iMovie, Mac OS X, iTunes, iPod, iPhoto, etc...",
+        "Part of the team that positioned company to trailblaze (once again) onto the Internet, into 2002 and beyond. We create computers that are fun, powerful, and easy to use."
+      ]
+    },
+
+    {
+      "title": "CEO",
+      "company": "Pixar Animation Studios",
+      "location": "Emeryville, CA",
+      "from": "1986",
+      "to": "Present",
+      "highlights": [
+        "Discovered a little animation company that needed a vision. Liked the product so much I bought the company. Pixar is now 'the' digital animation studio.",
+        "We have created and produced half of the top grossing animated films of all time, including: Toy Story, A Bug's Life, Toy Story 2, and Monsters, Inc."
+      ]
+    },
+
+    {
+      "title": "Founder & CEO",
+      "company": "NeXT Software Inc.",
+      "location": "Redwood City, CA",
+      "from": "1986",
+      "to": "1997",
+      "highlights": [
+        "Founded NeXT Software Inc., which created really cool hardware that exploited the full potential of Object Oriented technologies. NeXT technologies made programmers' (and users') lives a whole lot easier, thus giving them more leisure time to go catch the latest Pixar release.",
+        "Sold NeXT to Apple in 1997."
+      ]
+    },
+
+    {
+      "title": "Founder & CEO",
+      "company": "Apple Computer Inc.",
+      "location": "Los Altos, CA",
+      "from": "1976",
+      "to": "1986",
+      "highlights": [
+        "Invested heavily in funding start-up company (Sold my VW mini-bus).",
+        "Apple ignited the personal computer revolution with 'insanely great' products such as the Apple II. Took the company public in 1980 at $22 per share.  Later, in 1984, we reinvented the personal computer with the Macintosh.",
+        "Learned many things, including do's and don'ts for building executive teams.",
+        "Left in 1986 to decide which step to take NeXT."
+      ]
+    }
+  ],
+
+  "skillsets": [
+    {
+      "skills": [
+        "That 'vision thing'",
+        "Public speaking",
+        "Motivating teams",
+        "Creating really amazing products"
+      ]
+    }
+  ],
+
+  "education": {
+    "degree": "Reed College",
+    "location": "Portland, OR",
+    "from": "1972",
+    "to": "1974",
+    "highlights": [
+      "Studied Physics, Literature, Poetry..."
+    ]
+  }
+}

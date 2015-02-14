@@ -8,8 +8,10 @@ html
         h1= name
         ul.contact-methods
           li.phone= phone
-          li.email= email
-          li.website= website
+          li.email
+            a(href='mailto:#{email}') #{email}
+          li.website
+            a(href='http://#{website}') #{website}
       section.summary
         h2 Summary
         p= summary
@@ -26,6 +28,8 @@ html
               span= role.to
             .details
               span.company= role.company
+              if role.company && role.location
+                span.comma ,
               span.location= role.location
 
             p.summary= role.summary
@@ -42,7 +46,7 @@ html
           ul.highlights
             each skill in skillset.skills
               li= skill
-      
+
       section.education
         h2 Education
 
@@ -53,13 +57,15 @@ html
           span= education.to
         .details
           span.school= education.school
+          if education.school && education.location
+            span.comma ,
           span.location= education.location
-        
+
 
         ul.highlights
           each highlight in education.highlights
             li= highlight
 
-      if attribution
+      if settings.attribution
         footer.source
           small View this resume's source: <a href="http://github.com/allenan/resume">github.com/allenan/resume</a>

@@ -69,13 +69,13 @@ ul.highlights {
 
 .location {
   font-weight: 400;
-  &:before {
-    content: ',';
-    margin-right: 3px;
-  }
+}
+
+.comma {
+  margin-right: 0.4em;
 }
 
 .source {
-  margin-top: 20px;
+  margin-top: 40px;
   text-align: center;
 }
