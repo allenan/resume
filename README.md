@@ -4,7 +4,7 @@ A JSON-powered resume with clean and modern typography
 ### Roadmap
 #### 1.0
 - [x] Sample resume.json file
-- [ ] package.json with dependencies
+- [x] package.json with dependencies
 - [ ] Write getting started instructions
 - [ ] Improve typography, fonts
 - [ ] Add image to Readme
