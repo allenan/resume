@@ -26,3 +26,4 @@ A JSON-powered resume with clean and modern typography
 
 #### 3.0
 - [ ] Themes
+- [ ] Gulp task to generate new theme
