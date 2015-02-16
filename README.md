@@ -3,7 +3,7 @@ A JSON-powered resume with clean and modern typography.
 
 This is not a flashy resume like you see on Dribbble or Behance. There are no stars or progress bars here. This is a practical, polished and professional resume you can feel comfortable submitting anywhere.
 
-It's built with Gulp, using Jade and Sass. All the information in your resume is supplied via a simple JSON file, making the opportunities for extension and styling endless.
+It's built with Gulp, using Jade and Sass. All the information in your resume is supplied via a simple JSON file. This makes opportunities for extension and styling endless.
 
 ### Example
 
@@ -24,7 +24,7 @@ The gulp task builds a dist folder containing an html file and a stylesheet. The
 ### JSON Documentation
 *coming soon*
 
-### Contributiong
+### Contributing
 This is still a work-in-progress. Pull requests, especially those that add to what I've outlined on the roadmap, would be much appreciated. If you have suggestions for improvements, feel free to open an issue.
 
 ### Roadmap
