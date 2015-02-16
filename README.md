@@ -1,7 +1,11 @@
 # Resume
 A JSON-powered resume with clean and modern typography
 
+### Example
+
 ![steve jobs resume](https://cloud.githubusercontent.com/assets/792845/6216250/f4a38566-b5bc-11e4-9d67-5da936e387c7.png)
+
+example content from: http://www.landsnail.com/apple/local/steve-jobs-resume/Resume.html
 
 ### Getting Started
 1. Install node & npm
