@@ -1,6 +1,8 @@
 # Resume
 A JSON-powered resume with clean and modern typography
 
+![steve jobs _ resume](https://cloud.githubusercontent.com/assets/792845/6216124/adf58ec6-b5bb-11e4-93a1-17f718544c0e.png)
+
 ### Getting Started
 1. Install node & npm
 2. Clone this repo and, from within the cloned directory, run `$ npm install`
@@ -13,8 +15,8 @@ A JSON-powered resume with clean and modern typography
 - [x] Sample resume.json file
 - [x] package.json with dependencies
 - [x] Write getting started instructions
-- [ ] Improve typography, fonts
-- [ ] Add image to Readme
+- [x] Improve typography, fonts
+- [x] Add image to Readme
 - [ ] Fix: Watch resume.json and reload data after save
 
 #### 2.0
