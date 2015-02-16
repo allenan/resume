@@ -5,6 +5,8 @@
     &:not(:last-child):after {
       content: '|';
       margin: 0 6px;
+      font-weight: 100;
+      color: #bbb;
     }
   }
 }
@@ -65,6 +67,7 @@ ul.highlights {
 .details {
   font-weight: bold;
   font-size: 0.85rem;
+  margin-bottom: 5px;
 }
 
 .location {

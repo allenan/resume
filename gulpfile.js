@@ -7,7 +7,7 @@ var sass = require('gulp-sass');
 var paths = {
   html: 'src/html/**/*',
   styles: 'src/stylesheets/**/*',
-  data: 'example-resume.json'
+  data: 'resume.json'
 };
 
 
