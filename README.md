@@ -14,6 +14,9 @@ example content from: http://www.landsnail.com/apple/local/steve-jobs-resume/Res
 4. Run `$ gulp`
 5. Navigate to http://localhost:8000 to see your resume
 
+### JSON Documentation
+*coming soon*
+
 ### Roadmap
 #### 1.0
 - [x] Sample resume.json file
@@ -24,8 +27,10 @@ example content from: http://www.landsnail.com/apple/local/steve-jobs-resume/Res
 - [ ] Fix: Watch resume.json and reload data after save
 
 #### 2.0
+- [ ] JSON Documentation
 - [ ] More generalized json
 - [ ] Page numbers, header/footer content in print
+- [ ] Option to add page break at section
 - [ ] Gulp task to generate pdf
 - [ ] Automatically detect links
 - [ ] Responsiveness
@@ -33,3 +38,4 @@ example content from: http://www.landsnail.com/apple/local/steve-jobs-resume/Res
 #### 3.0
 - [ ] Themes
 - [ ] Gulp task to generate new theme
+- [ ] Gulp task to deploy the packaged html?
