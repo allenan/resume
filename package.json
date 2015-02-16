@@ -1,7 +1,7 @@
 {
   "name": "resume",
   "description": "A JSON-powered resume with clean and modern typography",
-  "version": "0.1.0"
+  "version": "0.1.0",
   "author": "Andrew Allen <andrew@allenan.com>",
   "repository": {
     "type": "git",
