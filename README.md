@@ -1,5 +1,9 @@
 # Resume
-A JSON-powered resume with clean and modern typography
+A JSON-powered resume with clean and modern typography.
+
+This is not a flashy resume like you see on Dribbble or Behance. There are no stars or progress bars here. This is a practical, polished and professional resume you can feel comfortable submitting anywhere.
+
+It's built with Gulp, using Jade and Sass. All the information in your resume is supplied via a simple JSON file, making the opportunities for extension and styling endless.
 
 ### Example
 
@@ -14,8 +18,14 @@ example content from: http://www.landsnail.com/apple/local/steve-jobs-resume/Res
 4. Run `$ gulp`
 5. Navigate to http://localhost:8000 to see your resume
 
+The gulp task builds a dist folder containing an html file and a stylesheet. These can be hosted anywhere. Additionally, you can print the resume or save it to a pdf file.
+
+
 ### JSON Documentation
 *coming soon*
+
+### Contributiong
+This is still a work-in-progress. Pull requests, especially those that add to what I've outlined on the roadmap, would be much appreciated. If you have suggestions for improvements, feel free to open an issue.
 
 ### Roadmap
 #### 1.0
