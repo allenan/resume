@@ -12,7 +12,7 @@
 
   "experience": [
     {
-      "title": "CEO",
+      "title": "Chairman & CEO",
       "company": "Apple Computer, Inc.",
       "location": "Cupertino, CA",
       "from": "1997",
@@ -24,7 +24,7 @@
     },
 
     {
-      "title": "CEO",
+      "title": "Cofounder & CEO",
       "company": "Pixar Animation Studios",
       "location": "Emeryville, CA",
       "from": "1986",
@@ -48,7 +48,7 @@
     },
 
     {
-      "title": "Founder & CEO",
+      "title": "Cofounder & CEO",
       "company": "Apple Computer Inc.",
       "location": "Los Altos, CA",
       "from": "1976",
