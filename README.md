@@ -49,3 +49,8 @@ This is still a work-in-progress. Pull requests, especially those that add to wh
 - [ ] Themes
 - [ ] Gulp task to generate new theme
 - [ ] Gulp task to deploy the packaged html?
+
+##### additional ideas
+- Social profiles?
+- content bar when viewing as html?
+
