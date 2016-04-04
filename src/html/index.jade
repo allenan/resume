@@ -13,11 +13,12 @@ html
             a(href='mailto:#{email}') #{email}
           li.website
             a(href='http://#{website}') #{website}
+      hr
       section.summary
         h2 Summary
         p= summary
       section.experience
-        h2 Work Experience
+        h2 Experience
 
         each role in experience
 
@@ -47,6 +48,20 @@ html
           ul.highlights
             each skill in skillset.skills
               li= skill
+
+      section.projects
+        h2 Projects
+
+        each project in projects
+          .project
+            h3.title= project.title
+            .dates
+              span= project.from
+              span.range &mdash;
+              span= project.to
+          .details
+            a(href='#{project.url}') #{project.url}
+          p= project.summary
 
       section.education
         h2 Education
