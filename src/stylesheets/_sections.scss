@@ -28,16 +28,29 @@ header {
 }
 
 .skills {
-  h3 {
+  margin-bottom: 1em;
+
+  .skill
+  {
     margin-bottom: 4px;
   }
 
-  .highlights {
-    margin-bottom: 8px;
+  .heading
+  {
+    font-weight: bold;
+    margin-right: 4px;
 
-    &:last-child {
-      margin-bottom: 20px;
+    &:after
+    {
+      content: ':';
     }
+  }
+
+  .details
+  {
+    font-weight: normal;
+    font-size: 1rem;
+    margin: 0;
   }
 }
 

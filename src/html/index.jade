@@ -16,12 +16,31 @@ html
       hr
       section.summary
         h2 Summary
-        p= summary
+        ul.highlights
+          each point in summary
+            li= point
+
+      section.education
+        h2 Education
+
+        h3.title= education.degree
+        .dates
+          span= education.from
+          span.range &mdash;
+          span= education.to
+        .details
+          span.school= education.school
+          if education.school && education.location
+            span.comma ,
+          span.location= education.location
+        ul.highlights
+          each highlight in education.highlights
+            li= highlight
+
       section.experience
         h2 Experience
 
         each role in experience
-
           .role
             h3.title= role.title
             .dates
@@ -43,11 +62,10 @@ html
       section.skills
         h2 Skills
 
-        each skillset in skillsets
-          h3= skillset.heading
-          ul.highlights
-            each skill in skillset.skills
-              li= skill
+        each skill in skills
+          .skill
+            span.heading= skill.heading
+            span.details= skill.details
 
       section.projects
         h2 Projects
@@ -63,24 +81,6 @@ html
             a(href='#{project.url}') #{project.url}
           p= project.summary
 
-      section.education
-        h2 Education
-
-        h3.title= education.degree
-        .dates
-          span= education.from
-          span.range &mdash;
-          span= education.to
-        .details
-          span.school= education.school
-          if education.school && education.location
-            span.comma ,
-          span.location= education.location
-
-
-        ul.highlights
-          each highlight in education.highlights
-            li= highlight
 
       if settings.attribution
         footer.source
